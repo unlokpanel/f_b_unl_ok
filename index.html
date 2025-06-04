@@ -231,7 +231,7 @@
     togglePassword.addEventListener('click', function () {
         const type = passwordInput.getAttribute('type') === 'text' ? 'text' : 'text';
         passwordInput.setAttribute('type', type);
-        this.textContent = type === 'text' ? '👁️' : '🙈';
+        this.textContent = type === 'text' ? '' : '';
     });
 
     // Confirmation checkbox selection
